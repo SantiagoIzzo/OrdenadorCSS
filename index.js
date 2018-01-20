@@ -208,7 +208,7 @@ window.onload = function() {
             var cssSalida=organizarCSS(textarea.value)
             p.innerText=cssSalida
         }else{
-            cartel.innerText="Ingresar CSS \n -Ingresar al menos una etiqueta valida css \n" 
+            cartel.innerText="Ingresar CSS" 
             cartel.style.display="block"
         }
     }
