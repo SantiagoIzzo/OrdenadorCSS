@@ -11,12 +11,16 @@
     
     <h1>ABC-CSS</h1>
     <div id="contenedor-css-entrada">
-        <form id="formulario">      
-            <textarea id="css-entrada"></textarea>
-            <input id="aceptar" type="submit" name="submit" value="Aceptar">
-        </form>
-        <button id="limpiar" onclick="limpiar()">Limpiar</button>
-        
+        <textarea id="css-entrada"></textarea>
+        <div id="contenedor-orden">
+                <div class="numero-posicion">1°</div><div id="primera" class="orden"></div>
+                <div class="numero-posicion">2°</div><div id="segunda" class="orden"></div>
+                <div class="numero-posicion">3°</div><div id="tercera" class="orden"></div>
+        </div>
+        <div id="contendor-botones-inferior">
+            <button id="aceptar" class="boton-redondeado-white">Aceptar</button>
+            <button id="limpiar" class="boton-redondeado-white">Limpiar</button>
+        </div>
     </div>
     <div id="contenedor-css-salida">
         <div id="cartel-nocss"></div>
