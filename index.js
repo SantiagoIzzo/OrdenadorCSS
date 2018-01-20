@@ -300,7 +300,13 @@ window.onload = function() {
             var cssSalida=organizarCSS(textarea.value)
             p.innerText=cssSalida
         }else{
-            cartel.innerText="-Ingrese al menos una etiqueta CSS. \n\n -Establesca el orden segun tipo de etiquetas." 
+            if(textarea.value.indexOf("{")==-1 && textarea.value.indexOf("}")==-1 && faltaSeleccionarOrden){  
+                cartel.innerText="-No ingreso CSS \n -No indico el orden" 
+            }else if(faltaSeleccionarOrden){
+                cartel.innerText="-No indico el orden" 
+            }else{
+                cartel.innerText="-No ingreso CSS"
+            }
             cartel.style.display="block"
         }
         
