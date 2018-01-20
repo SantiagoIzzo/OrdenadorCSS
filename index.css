@@ -1,3 +1,4 @@
+
 #aceptar{ 
 background-color: white;
 border-radius: 25px;
@@ -37,9 +38,7 @@ width: 50%;
 } 
 #contenedor-css-salida{ 
 background-color: #FFFFFF;
-border-radius: 25px;
-float: right;
-height: 600px;
+float: left;
 width: 50%;
 } 
 #limpiar{ 
@@ -71,10 +70,10 @@ font-size: 40px;
 margin: 5px 0px 5px 0px;
 padding-left: 20px;
 text-align: left;
+width: 98%;
 } 
 p{ 
 background-color: white;
-border-radius: 25px;
 margin: 10px auto;
 width: 90%;
 } 
